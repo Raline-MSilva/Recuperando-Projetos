@@ -25,10 +25,10 @@ public class Desafio_Lista5 {
             somaValores = somaValores + numEscolhidos;
             contador++;
 
-            if (qntNumeros < numEscolhidos){
+            if (contador < qntNumeros){
                 menorValor = numEscolhidos;
             }
-            else if(qntNumeros >= numEscolhidos){
+            else if(contador >= qntNumeros){
                 maiorValor = numEscolhidos;
             }
         }
